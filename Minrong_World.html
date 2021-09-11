@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap solux</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <!-- navbar 만들기-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#one">ChoMinYeong</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#one">Intro</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#two">Flexible</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#three">Gallery</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#four">Here!</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            </div>
+
+            <button data-toggle="modal" data-target="#start" type="button" class="btn btn-outline-info" >About</button>
+
+        </div>
+    </nav>
+
+        
+
+
+    <section id="one" class="text-center">
+        <div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <h1>Who am I?</h1>
+            <h4>Korean</h4>
+        </div>
+        <hr />
+        <!-- button 만들기 -->
+        <div><a href="#two" class="btn btn-primary " role="button" aria-pressed="true">Get started</a>
+            <br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+
+
+
+
+<div class="bg-dark">
+    <section id="two" class="text-center">
+        <br><br><br><br><br>
+        <h2 class="text-primary">Sookmyung Women's University</h2>
+        <br>
+        <hr>
+        <div class="container">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+                <div class="text-light col">
+                    <i class="fas fa-desktop" style="font-size: 60pt;"></i>
+                    <h3>emblem</h3>
+                    <p>BE THE QUEEN RULE YOUR WORLD</p>
+                </div>
+                <div class="text-light col">
+                    <i class="fab fa-sass" style="font-size: 60pt;"></i>
+                    <h3>major</h3>
+                    <p>DEPARTMENT OF STATISTICS</p>
+                </div>
+                <div class="text-light col">
+                    <i class="far fa-star" style="font-size: 60pt;"></i>
+                    <h3>double major</h3>
+                    <p>DEPARTMENT OF SOFTWARE CONVERGENCE</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </section>
+
+
+    <section id="three">
+        <div class="container">
+            <div class="row row-cols-sm1 row-cols-md-2 row-cols-lg-3">
+            <div id="pic1" class="col">
+                <img src="https://ifh.cc/g/m6zM64.jpg" width=300px, height=300px>
+            </div>
+            <div id="pic2" class="col">
+                <img src="https://ifh.cc/g/1QZV5Y.jpg"width=250px, height=350px>
+            </div>
+            <div id="pic3" class="col">
+                <img src="https://ifh.cc/g/6aeJCv.jpg"width=250px, height=350px>
+            </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+</div>
+
+
+
+    <section id="four">
+        <div class="bg-secondary text-center"><br><br><br><br>
+            <h2 class="margin-top-0 wow fadeIn text-primary">Get in Touch</h2><br>
+        <hr>
+        <p class="text-light">We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>             
+        <div>
+            <div class="container">
+                <div class="row row-cols-sm-1 row-cols-lg-3 row-cols-md-2">
+                    <div class="col">
+                        <input type="text" class="form-control col" placeholder="Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control col" placeholder="Email">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control col" placeholder="Phone">
+                    </div>
+                    
+                </div>
+            
+            
+
+            
+            <br>
+            <textarea class="form-control" rows="6" placeholder="Your message here.."></textarea><br><br>
+
+            
+
+            
+            <button data-toggle="modal" data-target="#send" type="button" class="btn btn-primary col-3">Send</button><br><br><br>
+            </div>
+        </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+    <div class="aboutModal modal fade" id="start">    
+        <div class="modal-dialog">
+            <div class="modal-content text-center text-light bg-dark">
+                <div class="modal-body">
+                    <br><br>
+                    <h3>이번학기 몇학점 듣냐구요?</h3><br>
+                    <h5>^_^</h5>
+                    <h6>21학점 6전공 1교양</h6>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="card-link">Download</a>
+                    <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+            
+
+
+        </div>
+    </div>
+
+
+    <div class="aboutModal modal fade" id="send">
+        <div class="modal-dialog">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <h3>Nice Job!</h3><br>
+                    <h5>You clicked the button,<br>but it doesn't actually go anywhere.</h5>
+                    <a href="#" class="card-link">Learn more at Bootstrap</a><br><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
