@@ -1,1 +1,1 @@
-# chominyeong.github.io
+# HTML for minrong-world
